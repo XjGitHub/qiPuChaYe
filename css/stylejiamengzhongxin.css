@@ -1,0 +1,95 @@
+.div_jibenxinxi{
+    width: 1150px;
+    height: 450px;
+    margin: 0 auto;
+
+}
+
+
+.xinxi_title{
+    font-size: 21px;
+    line-height: inherit;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.xinxi_text_1{
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    width: 16.66667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+    line-height: 1.42857143;
+    color: #333;
+}
+.require::before{
+    content: '*';
+    color: red;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    box-sizing: border-box;
+}
+.xinxi_text_input{
+    width: 360px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+.jiudianmingcheng{
+    /*设置元素的下外边距。*/
+    margin-bottom: 20px;
+}
+.xinxi_text_jieshao{
+    width: 360px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 20px;
+
+}
+.div_zhengzhaoxinxi{
+    height: 300px;
+}
+.wenjian{
+    position: relative;
+    top: 8px;
+    font-size: 18px;
+
+}
+.file{
+    display: block;
+    margin: 0;
+}
+.wenJianLieBiao{
+    font-size: 18px;
+    margin: 40px 222px;
+}
+.table{
+    width: 100%;
+
+    font-size: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.table tr{
+    background-color: #fafafa;
+    height: 50px;
+}
+.tijiao{
+    width: 80px;
+    height: 40px;
+    background-color: #4FCA6C;
+    color: whitesmoke;
+}
+.buttonUp{
+    margin: 50px 150px;
+}

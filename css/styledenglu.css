@@ -1,0 +1,71 @@
+.back{
+    width: 1350px;
+    height: 600px;
+    background:url("../img/sk46.jpg");
+}
+.loading{
+    width: 450px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    left: -410px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+}
+.input1{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    left: 25px;
+    top: 40px;
+    border: 1px solid black;
+}
+.input2{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    left: 25px;
+    top: 92px;
+    border: 1px solid black;
+}
+.input_left{
+    float: left;
+    width: 52px;
+    height: 52px;
+    background: url("../img/QQname.png");
+}
+.input_right{
+    float: right;
+    width: 298px;
+    height: 52px;
+}
+.text{
+    width: 296px;
+    height: 50px;
+    border: none;
+}
+.denglu{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    top: 144px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.zhuce{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    top: 196px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.forget{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    left: 25px;
+    border: none;
+}

@@ -1,0 +1,105 @@
+#div_introduce{
+    margin: 0 auto;
+    width: 1350px;
+    height: 460px;
+}
+a{
+    text-decoration: none;
+}
+#div_middle{
+    margin: 0 auto;
+    width: 1350px;
+    height: 600px ;
+    background-color: #f0f0f0;
+}
+.textTitle{
+    font-size: 1.3em;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.textImg{
+    width: 140px;
+    height: 200px;
+    /*设置边框*/
+    border: solid 1px #a1a1a1;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+}
+.p_text{
+    font-size: 0.8em;
+    text-align: center;
+}
+.div_lianxi{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+
+
+}
+.p_lianxi{
+    /*设置元素的下外边距。*/
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.lianxi_T{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 0.9em;
+}
+.sty{
+    margin-left: 17px;
+}
+.sy{
+    margin-left: 15px;
+}
+.syw{
+    width: 0px;
+    margin-left: 15px;
+}
+.div_address{
+    clear: both;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+}
+.textLeft{
+    float: left;
+}
+.textRight{
+    float: left;
+    margin-left: 20px;
+}
+.p_rightTitle{
+    font-size: 0.9em;
+    color: #a1a1a1;
+    margin-top: 50px;
+}
+.div_input{
+    margin-top: 10px;
+    /*设置元素的下外边距。*/
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.shurukuang{
+    width: 410px;
+    height: 30px;
+    border: 1px #a1a1a1 dashed;
+    margin-top: 10px;
+}
+.style{
+    width:610px;
+    height: 130px;
+}
+.up{
+    width: 220px;
+    height: 30px;
+    background-color:  #e56e6e;
+    border: 1px dashed  #e56e6e;
+}
+.div_button {
+    margin-top: 30px;
+}
+

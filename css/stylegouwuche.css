@@ -1,0 +1,69 @@
+.div_under_shop{
+    width: 1536px;
+    height: 1000px;
+}
+.div_shop{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    left: 43px;
+    top: 58px;
+/*    background-color: #02b687;*/
+}
+.div_big_img{
+    float: left;
+    width: 463px;
+    height: 463px;
+    /*background: url("../img/新闻动态_白毫银针.jpg");*/
+}
+.div_shop_jieshao{
+    float: right;
+    /*margin: 0 50px;*/
+    width: 680px;
+    height: 470px;
+}
+.div_shop_jieshao_price{
+    width: 476px;
+    height: 135px;
+    background-color: #dfdfdf;
+}.a_shop_jieshao_price{
+     font-size: 20px;
+     color: #495a70;
+ }
+.hr_shop_jieshao_price{
+    width: 475px;
+}
+.a_shop_jieshao_price_r{
+    font-size: 20px;
+    color: red;
+}
+.a_shop_jieshao_price_g{
+    font-size: 20px;
+    color: green;
+}
+.button_shop{
+    width: 234px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.div_small_img{
+    float: left;
+    width: 463px;
+    height: 60px;
+}
+.div_small_img_s{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.div_shop_xiangqing{
+
+
+}
+#newEnd{
+    position: relative;
+    top: 1000px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>七蒲官方首页</title>
+    <link rel="stylesheet" href="css/styleshouye.css">
+
+    <script language =javascript >
+    var curIndex=0;
+    //时间间隔(单位毫秒)，每秒钟显示一张，数组共有2张图片放在Photos文件夹下。
+    var timeInterval=2500;
+    var arr=new Array();
+    arr[0]="img/1_u1.jpg";
+    arr[1]="img/2_u3.jpg";
+    setInterval(changeImg,timeInterval);
+    function changeImg()
+    {
+    var obj=document.getElementById("obj");
+    if (curIndex==arr.length-1)
+    {
+    curIndex=0;
+    }
+    else
+    {
+    curIndex+=1;
+    }
+    obj.src=arr[curIndex];
+    }
+    </script>
+</head>
+<body>
+<div>
+    <!--页面标题部分-->
+    <div id="div_title">
+        <div id="div_shangbiao"></div>
+        <div class="right">
+            <ul>
+                <li><a>厦门七蒲茶业</a></li>
+                <li><a href="七蒲首页.html">网站首页</a></li>
+                <li><a href="新闻动态.html">新闻动态</a></li>
+                <li><a href="产品中心.html">产品中心</a></li>
+                <li><a href="销售中心.html">销售中心</a></li>
+                <li><a href="茶农入口.html">茶农入口</a></li>
+                <li><a href="加盟中心.html">企业加盟</a></li>
+                <li><a href="联系我们.html">联系我们</a></li>
+                <li><a href="登陆.html">登录注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="obj"><img  src="img/1_u1.jpg" width="1350px" height="460"></div>
+    <div id="div_baicha">
+        <div class="up">
+            <h3><a>更多》</a></h3>
+            <h2>－•－•－七蒲的历史－•－•－</h2>
+        </div>
+        <div class="up2">
+            <img src="img/baicha.png" width="1350px" height="100%">
+        </div>
+        <div class="down">
+            <div class="left">
+                <img src="img/danyangzi.png" width="1350px" height="100%">
+            </div>
+            <div class="right">
+                <div class="up">
+                    <h3>七蒲七子----------丹阳子</h3>
+                </div>
+                <div class="down">
+                    <img src="img/张时生.png" width="1350px" height="100%">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="div_qiye">
+        <div class="up">
+            <h3><a href="#">更多》</a></h3>
+            <h2>企业介绍</h2>
+        </div>
+        <div class="left_text">
+            <img src="img/七蒲茶业.jpg" width="20%" height="80%">
+        </div>
+        <div class="right_text">
+            &nbsp;&nbsp;&nbsp;&nbsp;<span>七蒲茶业(厦门)有限公司成立于2012年，是一家集白茶、红茶"种植"、"科研"、"生产"、"营销"、"文化传播"为一体的企业，以品质、健康、时尚为经营理念。
+     公司位于福建省厦门市集美区银江路128号之12,茶园位于福建省福鼎市管阳镇七蒲自然村，当地海拔千米、群山连绵、云雾缭绕、山溪纵横、流水潺潺，土壤肥沃、植被生长良好，
+     年平均气温12至22摄氏度，温暖湿润空气清新，负离子含量高，出产的茶叶质量优良，素有世界白茶在中国，中国白茶在福鼎，福鼎白茶在七蒲的赞誉。
+     七蒲茶人祖辈都以种茶制茶为业至今，已有百年历史。
+     七蒲茶业现拥有完整的生产销售体系，实力和产品质量获得业界认可，目前年产约300吨，公司主要生产白茶（白毫银针、牡丹王等）、红茶（白琳工夫、坦洋工夫、小种等）、绿茶、花茶等40多个品种，品质享誉海内外。
+     公司产品市场定位全面，能够满足高、中、低端消费者对茶叶喜好的消费需求。
+     目前七蒲茶业以直营专卖和连锁加盟形式，建立起覆盖全国各地主要城市的销售网络，并被国家农业部评定为农产品连锁经营重点企业。
+     公司将继续推进茶叶与几千年的饮茶文化、企业文化有机结合，全面打造七蒲品牌。</span>
+        </div>
+    </div>
+
+    <div id="div_chanpin">
+        <div class="left">
+            <div class="up">
+                <h3><a href="#">更多》</a></h3>
+                <h2>产品介绍</h2>
+            </div>
+            <div class="down">
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>福鼎白茶 属于福建白茶，具有地域唯一、工艺天然和功效独特等特性。
+    因茶树品种、原料（鲜叶）采摘的标准不同，主要品种分为：首日芽、白毫银针、白牡丹、寿眉（贡眉）。
+     白茶性清凉，消热降火，消暑解毒。
+      欧美国家对白茶研究发现，相比其他茶类，白茶的自由基含量最低，黄酮含量最高，
+           氨基酸含量平均值高于其他茶类，降血压、降血脂、降血糖、抗氧化、抗辐射、抗肿瘤，人体免疫力细胞的干扰素分泌量增加5倍等。</span>
+            </div>
+        </div>
+        <div class="right">
+            <img  src="img/白毫银针.png" width="1350px" height="100%">
+        </div>
+    </div>
+
+    <!--页面底部-->
+    <div id="newEnd" >
+        <div class="last">
+            <ul>
+                <li><a href="七蒲首页.html">网站首页</a></li>
+                <li><a href="新闻动态.html">新闻动态</a></li>
+                <li><a href="产品中心.html">产品中心</a></li>
+                <li><a href="茶农入口.html">茶农入口</a></li>
+                <li><a href="联系我们.html">联系我们</a></li>
+            </ul>
+
+        </div>
+        <div class="last scend">Copyright © 2009-2011,www.qiputea.com,All rights reserved  版权所有 © 厦门七蒲网络科技有限公司 未经许可 严禁复制</div>
+        <div class="last san">沪ICP备XXXXXX号 </div>
+    </div>
+</div>
+
+
+</body>
+</html>

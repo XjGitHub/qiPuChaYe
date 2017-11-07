@@ -1,0 +1,103 @@
+.introduce{
+    width: 1350px;
+    margin: auto;
+    height: 460px;
+}
+.div_body{
+    width: 1350px;
+    margin: auto;
+    height:2000px;
+    background-color:gainsboro;
+}
+.div_head{
+    height: 80px;
+}
+.choose{
+    border: solid 1px #111111;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    /*设置元素的下外边距。*/
+    margin-bottom: 10px;
+    width: 330px;
+    height: 50px;
+    box-shadow: #999999 3px 3px;
+    background-color: #f8f8f8;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+.search{
+    border: solid 1px #111111;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+    /*设置元素的下外边距。*/
+    margin-bottom: 10px;
+    width: 390px;
+    height: 50px;
+    box-shadow: #999999 3px 3px;
+    background-color: #f8f8f8;
+    float: right;
+    position: relative;
+    top:20px;
+    right: 20px;
+    }
+.searchButton{
+    background-color: #111111;
+    color: white;
+    border-radius: 8px;
+    width: 75px;
+    height: 31px;
+    position: relative;
+    top: -10px;
+}
+.inputData{
+    width: 250px;
+    height: 28px;
+    border: none;
+    border-bottom: #111111 1px solid;
+    position: relative;
+    top: -10px;
+}
+.div_show{
+    width: 100%;
+    height: 1800px;
+}
+.div_show .shangpinjia{
+    width: 25%;
+    height: 30%;
+    float: left;
+}
+.div_show .shangpinjia .shangpin{
+    border: solid 1px #111111;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+    /*设置元素的下外边距。*/
+    margin-bottom: 10px;
+    width: 80%;
+    height: 70%;
+    box-shadow: #999999 3px 3px;
+    background-color: #f8f8f8;
+    position: relative;
+    top:180px;
+    left: 20px;
+}
+#fenye{
+    width: 75em;
+    height: 4em;
+    position: relative;
+    top: 2em;
+    left: 500px;
+}
+#fenye a{
+    text-decoration: none;
+    box-sizing: content-box;
+    border:1px solid #999999;
+    padding: 8px 16px;
+    color: #999999;
+    /*鼠标指针放在一个元素边界范围内时所用的光标形状,pointer为手指*/
+    font-size: 14px;
+}

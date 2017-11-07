@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    /*设置字体样式*/
+    font-family: arial, helvetica, sans-serif;
+}
+#bodyStyle{
+    width: 90%;
+}
+
+#div_title{
+    margin: 0 auto;
+    width: 1350px;
+    height: 90px;
+    background-image: url("../img/title.jpg");
+}
+#div_shangbiao{
+    width: 200px;
+    height: 85px;
+    background-image: url("../img/cloud.png");
+    float: left;
+}
+#div_title .right{
+    position: relative;
+    top: 20px;
+}
+#div_title .right ul li{
+    list-style:none;
+    width: 3.7em;
+    float: left;
+    font-size: 2.1em;
+}
+#div_title .right ul li a{
+    margin: 0 auto;
+    color: white;
+    font-size: 0.5em;
+}
+#newEnd{
+    margin: 0 auto;
+    clear: both;
+    width: 1350px;
+    height: 110px;
+    background-color: #252833;
+    border-top: #02b687 3px solid;
+
+}
+.last li{
+    float: left;
+    width: 100px;
+}
+.last{
+    height: 5px;
+    margin-top: 25px;
+    margin-left: 430px;
+    color: #495a70;
+}
+a{
+    text-decoration: none;
+}
+.last a{
+    color: #495a70;
+    font-size: 14px;
+}
+.scend{
+    margin-left: 320px;
+    font-size: 13px;
+}
+.san{
+    margin-top: 12px;
+    margin-left: 620px;
+    font-size: 13px;
+}
+#div_introduce{
+    margin: 0 auto;
+    width: 1350px;
+    height: 460px;
+}
+#obj{
+    width: 1350px;
+    margin: auto;
+}
+#div_baicha{
+    width: 1350px;
+    margin: auto;
+}
+#div_qiye{
+    width: 1350px;
+    margin: auto;
+}
+.right_text{
+    width: 950px;
+    position: relative;
+    top: -200px;
+    left:180px;
+}
+#div_chanpin{
+    width: 1350px;
+    margin: auto;
+ }
